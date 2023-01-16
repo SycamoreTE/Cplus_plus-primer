@@ -51,6 +51,8 @@ void q_2_20()
     const int v2 = 1024;
     int v1 = v2;
     int *p1 = &v1, &r1 = v1;
+    //从右往左阅读，p2是个指针，p2是常量的指针； 底层const
+    //p3是个常量，p3是个常量指针；顶层const
     const int *p2 = &v2, *const p3 = &v1, &r2 = v2;
 
     std::cout << *p2 << " " << p2 << " " << p1 << std::endl;
