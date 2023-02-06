@@ -5,5 +5,6 @@
         "*.tcc": "cpp",
         "stdexcept": "cpp",
         "initializer_list": "cpp"
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
