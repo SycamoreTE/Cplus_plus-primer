@@ -4,7 +4,8 @@
         "iostream": "cpp",
         "*.tcc": "cpp",
         "stdexcept": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "iosfwd": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
